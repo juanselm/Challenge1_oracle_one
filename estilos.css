@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto Condensed' , sans-serif;
+	font-weight: 300;
+	background-color:   #b3b6b7;
+        background-image: url(patron.png);    
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 75em;
+	margin: 20px auto;
+	display: grid;
+}
+
+table {
+    background-color:  #fdfefe  ;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px  #424949 ;
+    border: #2ecc71 2px solid;
+}
+
+
+button {
+    background-color:    #2ecc71;
+    border: 2px solid #2ecc71;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color:  white;
+    color: black;
+    padding: 10px 20px;
+}
+
+textarea {
+  border-radius: 5px;
+  outline      : none;
+  height: 100px;
+  width: 250px;
+}
+
+textarea:focus {
+  background   : #d5d8dc;
+  border-radius: 5px;
+  outline      : none;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+   background:#2ecc71;
+   text-align: center;
+}
+
+div.campo {
+    width: 700px; 
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+td.titulo {
+     border-bottom: 2px solid #2ecc71;
+}
+
+

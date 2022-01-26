@@ -7,13 +7,13 @@ var texto = document.getElementById("ingreso");
 
         
         function encriptar(){
-            encriptado = texto.value.replaceAll("e","enter").replaceAll("i","imes").replaceAll("a","ai").replaceAll("o","ober").replaceAll("u","ufat");
+            encriptado = texto.value.toLowerCase().replaceAll("e","enter").replaceAll("i","imes").replaceAll("a","ai").replaceAll("o","ober").replaceAll("u","ufat");
             mostrar.value = encriptado;
             texto.value = "";
         }
         
         function desencriptar(){
-            desencriptado = texto.value.replaceAll("enter","e").replaceAll("imes","i").replaceAll("ai","a").replaceAll("ober","o").replaceAll("ufat","u");
+            desencriptado = texto.value.toLowerCase().replaceAll("enter","e").replaceAll("imes","i").replaceAll("ai","a").replaceAll("ober","o").replaceAll("ufat","u");
             mostrar.value = desencriptado;
             texto.value = "";
         }

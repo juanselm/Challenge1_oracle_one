@@ -1,4 +1,4 @@
-var texto = document.getElementById("ingreso").toLowerCase();
+var texto = document.getElementById("ingreso");
         var mostrar = document.getElementById("mostrar");
         var copiar = document.getElementById("copiar");
         var encriptado = "";
